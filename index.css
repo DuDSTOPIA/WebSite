@@ -33,7 +33,7 @@ main {
 .infocentral01 {
     display: inline-block;
     color: aliceblue;
-    font-size: 30px;
+    font-size: 40px;
     padding: 5%;
     text-shadow: 7px 7px rgb(0, 0, 0);
     -webkit-text-stroke-width: 1px;
@@ -42,13 +42,13 @@ main {
 
 .redessociais {
     display: inline;
-    padding: 10%; 
+    padding: 10%;
     
 }
 
 .socialimg {
-    width: 20%;
-    padding: 2%;
+    width: 10%;
+    padding: 5%;
     
 }
 
