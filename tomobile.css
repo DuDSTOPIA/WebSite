@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px){
+    header, .central, footer {
+        width: auto;
+        height: auto;
+        font-size: 2em;
+        
+    }
+
+    .copyright, .infocentral01, .msgfinal {
+        font-size: medium;
+    }
+}
