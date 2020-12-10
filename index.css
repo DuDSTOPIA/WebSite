@@ -16,6 +16,7 @@
 }
 
 .titulo {
+    color: #00ffdd;
     padding: 2em;
     text-decoration: underline;
     font-size: 2em;
@@ -34,14 +35,11 @@
 
 .sobre p:first-child {
     margin-bottom: 3em;
-  }
-
-
-
+}
 
 .central {
     background: rgb(0, 34, 42);
-    height: 20%px;
+    height: 50em;
 }
 
 .infocentral01 {

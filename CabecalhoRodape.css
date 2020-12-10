@@ -16,7 +16,7 @@
 
 .destaque p:first-child {
     width: 40em;
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.1;
 }
 
@@ -26,16 +26,16 @@
 }
 
 .container {
-    color: rgba(77, 77, 77, 0.787);
+    color:  #3f3f3f;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color:rgba(228, 228, 228, 0.582);
+    -webkit-text-stroke-color:#00ffdd;
     width: 940px;
     margin: 0 auto;
 }
 
 header {
     font-family: 'Goldman', cursive;
-    border-top: 5px solid #ffffff;
+    border-top: 5px solid #00b69e;
     background: rgba(77, 77, 77, 0.781);
     height: 90px;
     width: 100%;
@@ -56,20 +56,20 @@ header {
     padding-left: 0;
 }
   
-.navegacao li {
+.navegacao li { 
     display: inline-block;
     text-align: center;
     width: 10em;
 }
   
 .navegacao a {
-    color: white;
+    color: #00ffdd;;
     text-decoration: none;
 }
   
 .navegacao a:hover {
     text-decoration: underline;
-    color: #04e7fc;
+    color: #ffffff;
              
 }
 
