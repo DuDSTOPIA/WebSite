@@ -40,13 +40,12 @@
 
 
 .central {
-    background: 5%, url("centralimg.jpg");
-    height: 900px;
-    margin: 5%;
+    background: rgb(0, 34, 42);
+    height: 20%px;
 }
 
 .infocentral01 {
-    display: inline-block;
+    display: block;
     color: aliceblue;
     font-size: 40px;
     padding: 5%;
@@ -55,9 +54,15 @@
     -webkit-text-stroke-color: rgb(83, 80, 80);
 }
 
+.infocentral01 p {
+    text-align: center;
+}
+
 .redessociais {
-    display: inline;
-    padding: 10%;
+    display: inline-block;
+    padding-left: 35%;
+   
+    
     
 }
 
