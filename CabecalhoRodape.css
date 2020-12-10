@@ -1,32 +1,71 @@
 /*Cabeçalho*/
 
+.destaque {
+    font-family: 'Goldman', cursive;
+    background: url("Cabeçalho03.jpg") center bottom repeat-x;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 330px;
+    padding-top: 10em;
+}
+
 header {
     font-family: 'Goldman', cursive;
-    background: 10%, url("Cabeçalho03.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 500px;
-    font-size: 60px;
+    border-top: 5px solid #ffffff;
+    background: rgba(20, 20, 20, 0.781);
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.navegacao {
+    font-family: "Roboto Slab", serif;
+    position: absolute;
+    right: 3%;
+    top: 2em;
+    font-size: 1em;
+    font-weight: lighter;
+}
+  
+.navegacao ul {
+    padding-left: 0;
+}
+  
+.navegacao li {
+    display: inline-block;
     text-align: center;
+    width: 10em;
+}
+  
+.navegacao a {
+    color: white;
+    text-decoration: none;
+}
+  
+.navegacao a:hover {
+    text-decoration: underline;
+    color: #04e7fc;
+             
 }
 
 .duds {
     display: block;
-    padding-left: 10%;
+    padding-left: 25em;
     padding-top: 1%;
     
 }
 
 .maintitle {
     display:block;
-    padding-top: 4%;
+    font-size: 4em;
+    padding-top: 9%;
+    color: rgba(105, 109, 109, 0.356);
     text-shadow: 4px 4px rgb(255, 255, 255);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(0, 174, 255);
+    -webkit-text-stroke-color:rgb(0, 225, 255);
 }
-
 
 
 /*Rodapé*/
